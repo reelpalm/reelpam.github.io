@@ -1,0 +1,138 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.title-section {
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+}
+h3 {
+    font-size: 38px;
+    margin: 28px 17px;
+    color: #301534;
+}
+.fa-star {
+    color: #af25f1;
+    font-size: 26px;
+    margin-right: 9px;
+}
+.container {
+    background: linear-gradient(to bottom, #301534 0%, #301534 35%, #f9eeff 35%, #f9eeff 100%);
+    width: 1000px;
+    height: 650px;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+    background-color: #fff;
+    width: 450px;
+    border-radius: 15px;
+    max-width: 94%;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+    gap: 3rem;
+    margin: 0 auto;
+}
+.question-txt {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    color: #301534;
+}
+.question-txt:hover {
+    color: #af25f1
+}
+p {
+    width: 86%;
+    margin: 10px auto;
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: grey;
+    display: block;
+    line-height: 20px;
+}
+#para-1 {
+     display: none;
+}
+#para-2 {
+    display: none;
+}
+#para-3 {
+    display: none;
+}
+#para-4 {
+    display: none;
+}
+.hr {
+    width: 86%;
+    border: 0.1px solid #f8f8f8;
+    margin-bottom: 16px;
+}
+.first-section {
+    margin-bottom: 10px;
+}
+.fourth-section {
+    margin-bottom: 20px;
+}
+.fa-square-plus {
+    color: #af25f1;
+    font-size: 18px;
+    cursor: pointer;
+}
+#minus-4 {
+    display: none;
+    color: #301534;
+    font-size: 18px;
+    cursor: pointer;
+}
+#minus-3 {
+    display: none;
+    color: #301534;
+    font-size: 18px;
+    cursor: pointer;
+}
+#minus-2 {
+    display: none;
+    color: #301534;
+    font-size: 18px;
+    cursor: pointer;
+}
+#minus-1 {
+    display: none;
+    color: #301534;
+    font-size: 18px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1000px){
+    .container {
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 851px){
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+    .wrapper {
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .wrapper {
+        width: 350px;
+    }
+}
